@@ -1,0 +1,30 @@
+#allPageDivId {
+    height: 1000px;
+    outline: 0.1px solid black;
+}
+
+#menuDiv {
+    height: 100px;
+    outline: 0.1px solid black;
+}
+
+#advertisementDivL {
+    width: 120px;
+    height: 800px;
+    outline:  0.1px solid black;
+    float: left;
+}
+
+#searchDiv {
+    width: 800px;
+    height: 800px;
+    outline:  0.1px solid black;
+    margin: 0 auto;
+}
+
+#advertisementDivR {
+    width: 120px;
+    height: 800px;
+    outline:  0.1px solid black;
+    float: right;
+}
