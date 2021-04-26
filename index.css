@@ -1,1 +1,30 @@
-@import "components/indrx.css";
+@import "./js/search/search.css";
+
+.locateDivRCF {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemsResult {
+    width: 500px;
+    min-height: 100px;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    margin: auto;
+}
+
+#content {
+    height: 70px;
+    outline: 1px solid black;
+}
+
+#menuDiv {
+    height: 35px;
+    outline: 1px solid black;
+}
+
+.advertisingDiv {
+    width: 100px;
+    height: 500px;
+    outline: 1px solid black;
+}

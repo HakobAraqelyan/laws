@@ -1,0 +1,183 @@
+.searches {
+    width: 500px;
+    background-color: rgb(235, 235, 235);
+    outline: 1px solid black;
+}
+
+.searchByDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.searchSimpl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.types {
+    border-radius: 20px;
+    height: 30px;
+    border: 0.1px solid;
+}
+
+.onActive {
+    background-image: url(./icons/radio-button-active.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 8px 6px;
+    background-color: #00a8b3;
+    padding: 0px 10px 0px 32px;
+
+}
+
+.year {
+    width: 80px;
+}
+
+.offActive {
+    background-color: rgb(255, 255, 255);
+    background-image: url(./icons/radio-button-offActive.png);
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    background-size: 18px;
+    padding: 0px 10px 0px 30px;
+
+}
+
+.hiddenElement,
+.checkedTypeDiv>div>hr {
+    display: none;
+}
+
+input {
+    width: 450px;
+    height: 18px;
+    margin: 3px 15px 20px 15px;
+    padding: 2px 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+div>input:active {
+    border: 1px solid rgb(0, 238, 255);
+    background-color: rgb(233, 236, 253);
+}
+
+div>input:focus {
+    font-size: 15px;
+    height: 20px;
+    margin: 1px 13px 18px 13px;
+    padding: 2px 8px;
+    border: 1.5px solid #00a8b3;
+}
+
+.searchByDiv>span {
+    display: block;
+    margin: 1px 1px 20px 1px;
+    line-height: 30px;
+}
+
+.searchType>span {
+    width: 450px;
+    margin: 1px 1px 1px 310px;
+}
+
+.inpNoDoc {
+    width: 245px;
+    margin: 0px 3px 20px 20px;
+}
+
+.inpDocType {
+    width: 155px;
+    margin: 1px 20px 20px 9px;
+}
+
+
+.searchTypes>hr {
+    height: 1px;
+}
+
+span {
+    margin: 20px;
+}
+
+#inpAcceptedYearSpanId {
+    margin: 0px 0px 0px 225px;
+}
+
+.checkboxInp,
+.checkboxInp:focus,
+.checkboxInp:active {
+    width: 20px;
+    height: 18px;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    font-size: 16px;
+}
+
+.searchResult {
+    width: 150px;
+    height: 40px;
+    background-image: url(./icons/search-result.jpg);
+    background-size: 37px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+.showPage {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    opacity: 1;
+}
+
+.showLi {
+    min-width: 320px;
+    top: 25px;
+    right: 140px;
+    bottom: 20px;
+    position: fixed;
+    overflow: auto;
+    margin: 10px;
+    border: 1px solid rgb(50, 72, 82);
+    background-color: rgb(108, 142, 165);
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div>li>input {
+    width: 15px;
+    height: 15px;
+    margin: 3px 5px 0px 5px;
+}
+
+.checkedTypeDiv>div>li {
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: turquoise;
+}
+
+.checkedTypeDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+

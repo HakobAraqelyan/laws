@@ -1,3 +1,1 @@
-"use strict";
-
-import "./components/index.js";
+import "./js/search/search.js";

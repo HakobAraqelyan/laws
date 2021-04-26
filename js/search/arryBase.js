@@ -50,5 +50,4 @@ const arryLi = [
     'Ֆակուլտատիվ արձանագրություն',
 ];
 
-
-export default arryLi;
+export { arryLi };
